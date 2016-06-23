@@ -7,11 +7,36 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace COMP2007_S2016_MidTerm_BrandonRoy
-{
-
-
-    public partial class TodoList
-    {
+namespace COMP2007_S2016_MidTerm_BrandonRoy {
+    
+    
+    public partial class TodoList {
+        
+        /// <summary>
+        /// AddTodo control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button AddTodo;
+        
+        /// <summary>
+        /// todoGridview control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView todoGridview;
+        
+        /// <summary>
+        /// SqlDataSource1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource1;
     }
 }

@@ -9,26 +9,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title></title>
     <!-- CSS Section -->
+      <link rel="stylesheet" type="text/css" href="css.css">
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
     <link href="Content/bootstrap-theme.min.css" rel="stylesheet" />
     <link href="Content/font-awesome.min.css" rel="stylesheet" />
     <link href="Content/app.css" rel="stylesheet" />
     <asp:ContentPlaceHolder ID="head" runat="server">
+   
+             
+             <p class="text-muted">&copy; Brandon Roy, 200210374, June 23 2016, visual studio 2015, todoList application</p>
+   
+                
     </asp:ContentPlaceHolder>
 </head>
 <body>
     <form id="form1" runat="server">
         <bs3:Navbar runat="server" ID="PrimaryNav"></bs3:Navbar>
         <div>
-            <asp:ContentPlaceHolder ID="MainContent" runat="server">
-            </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">    </asp:ContentPlaceHolder>
         </div>
+        
+        
+
         <footer class="footer navbar navbar-fixed-bottom bg-info">
             <div class="container">
                 <p class="text-muted">&copy; 2016 ASP.NET Web Forms Todo List</p>
+                
             </div>
         </footer>
     </form>
+
+
 
     <!-- JavaScript -->
     <script src="Scripts/jquery-2.2.3.min.js"></script>

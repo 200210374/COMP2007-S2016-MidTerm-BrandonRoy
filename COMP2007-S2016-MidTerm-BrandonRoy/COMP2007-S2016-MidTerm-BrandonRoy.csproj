@@ -84,6 +84,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css.css" />
     <Content Include="Models\TodoModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>TodoModel.edmx</DependentUpon>

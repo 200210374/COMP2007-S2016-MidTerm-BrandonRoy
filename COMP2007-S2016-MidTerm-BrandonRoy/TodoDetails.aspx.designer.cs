@@ -7,13 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace COMP2007_S2016_MidTerm_BrandonRoy
-{
-
-
-    public partial class TodoDetails
-    {
-
+namespace COMP2007_S2016_MidTerm_BrandonRoy {
+    
+    
+    public partial class TodoDetails {
+        
         /// <summary>
         /// todoNameLabel control.
         /// </summary>
@@ -22,15 +20,15 @@ namespace COMP2007_S2016_MidTerm_BrandonRoy
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label todoNameLabel;
-
+        
         /// <summary>
-        /// todo NametextBox control.
+        /// todoNametextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox todo NametextBox;
+        protected global::System.Web.UI.WebControls.TextBox todoNametextBox;
         
         /// <summary>
         /// todoNotesLabel control.
@@ -40,7 +38,7 @@ namespace COMP2007_S2016_MidTerm_BrandonRoy
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label todoNotesLabel;
-
+        
         /// <summary>
         /// todoNotesTextBox control.
         /// </summary>
@@ -49,5 +47,41 @@ namespace COMP2007_S2016_MidTerm_BrandonRoy
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox todoNotesTextBox;
+        
+        /// <summary>
+        /// cancel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button cancel;
+        
+        /// <summary>
+        /// SubmitButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button SubmitButton;
+        
+        /// <summary>
+        /// checkboxlabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label checkboxlabel;
+        
+        /// <summary>
+        /// Completed control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox Completed;
     }
 }
