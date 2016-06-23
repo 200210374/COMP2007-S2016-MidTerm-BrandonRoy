@@ -16,7 +16,7 @@
     <link href="Content/app.css" rel="stylesheet" />
     <asp:ContentPlaceHolder ID="head" runat="server">
    
-             
+             <!--This is the header for the application-->
              <p class="text-muted">&copy; Brandon Roy, 200210374, June 23 2016, visual studio 2015, todoList application</p>
    
                 
